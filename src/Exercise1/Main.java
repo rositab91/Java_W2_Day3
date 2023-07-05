@@ -17,8 +17,8 @@ public class Main {
 		SecondThread t2 = new SecondThread();
 		t2.setName("Thread Beta");
 
-		// non devo chiamare il metodo .run, altrimenti saro' sul main thread
-		// se chiamo .start viene creato un nuovo thread che chiamera' il metodo run
+		// non devo chiamare il metodo .run(), altrimenti saro' sul main thread
+		// se chiamo .start() viene creato un nuovo thread che chiamera' il metodo run
 		t1.start();
 		t2.start();
 
